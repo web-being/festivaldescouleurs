@@ -1,5 +1,6 @@
 ---
 layout: layout.njk
+permalink: /about-us.html
 title: About - English
 lang: en
 ---

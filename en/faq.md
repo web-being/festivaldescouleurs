@@ -1,5 +1,6 @@
 ---
 layout: layout.njk
+permalink: /faq.html
 title: FAQ - English
 lang: en
 ---

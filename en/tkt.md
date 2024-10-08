@@ -1,5 +1,6 @@
 ---
 layout: layout.njk
+permalink: /tkt.html
 title: Tickets - English
 lang: en
 ---

@@ -1,5 +1,6 @@
 ---
 layout: layout.njk
+permalink: /lineup.html
 title: Lineup - English
 lang: en
 ---

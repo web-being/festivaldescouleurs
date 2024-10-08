@@ -1,5 +1,6 @@
 ---
 layout: layout.njk
+permalink: /index.html
 title: Home - English
 lang: en
 ---
