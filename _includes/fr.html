@@ -17,16 +17,16 @@
       <nav>
         <ul>
           <li>
-            <a href="/fr/">Home</a>
+            <a href="/fr/">Accueil</a>
           </li>
           <li>
-            <a href="/fr/about-us">About</a>
+            <a href="/fr/about-us">Festival</a>
           </li>
           <li>
-            <a href="/fr/lineup">Lineup</a>
+            <a href="/fr/lineup">Artistes</a>
           </li>
           <li>
-            <a href="/fr/tkt">Tickets</a>
+            <a href="/fr/tkt">Billets</a>
           </li>
           <li>
             <a href="/fr/faq">FAQ</a>
@@ -38,11 +38,17 @@
       {{ content }}
     </main>
     <footer>
+      {% include 'icons.html' %}
       <nav>
         <a href="mailto:">Contact Us</a>
         <a href="/fr/terms-and-conditions">Terms and Conditions</a>
         <a href="/fr/privacy-policy">Privacy policy</a>
       </nav>
+      <div id="outro">
+        <img src="/assets/SAAQ.webp" width="160"/>
+        <img src="/assets/festival-of-india.webp" width="80"/>
+        <small>© 2024  par Festivals de l'Inde</small>
+      </div>
     </footer>
   </body>
 </html>
