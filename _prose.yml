@@ -5,7 +5,6 @@ prose:
   media: 'assets'
   ignore:
     - _prose.yml
-    - /_includes
     - .github
     - node_modules
     - .eleventy.js
