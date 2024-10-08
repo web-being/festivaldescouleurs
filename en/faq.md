@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: en.html
 permalink: /faq.html
 title: FAQ - English
 lang: en

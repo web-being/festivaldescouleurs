@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: fr.html
 title: Billets - Français
 lang: fr
 ---

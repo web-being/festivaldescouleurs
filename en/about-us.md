@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: en.html
 permalink: /about-us.html
 title: About - English
 lang: en

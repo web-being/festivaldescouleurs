@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: en.html
 permalink: /lineup.html
 title: Lineup - English
 lang: en
