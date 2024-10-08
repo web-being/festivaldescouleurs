@@ -4,5 +4,7 @@ permalink: /index.html
 title: Home - English
 lang: en
 ---
-# Welcome to Our Event
-This is the English version of the home page.
+# Welcome
+
+This is the English version of the home page.\
+T﻿he actual content will show up here.
