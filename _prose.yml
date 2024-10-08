@@ -4,7 +4,13 @@ prose:
   relativeLinks: 'http://web-being.github.io/festivaldescouleurs/links.jsonp'
   media: 'assets'
   ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
+    - _prose.yml
     - /_includes
+    - .github
+    - node_modules
+    - .eleventy.js
+    - .gitattributes
+    - .gitignore
+    - LICENSE
+    - package.json
+    - package-lock.json
