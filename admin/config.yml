@@ -5,3 +5,42 @@ backend:
 
 media_folder: "assets/uploads"  # Folder where images or media files will be stored
 public_folder: "/assets/uploads"  # Path to access uploaded media
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "en/index.md"  # Path to your home page content
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "About Us"
+        name: "about"
+        file: "en/about-us.md"  # Path to your about page content
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Lineup"
+        name: "lineup"
+        file: "en/lineup.md"  # Path to your lineup page content
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Tickets"
+        name: "tkt"
+        file: "en/tkt.md"  # Path to your tickets page content
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "FAQ"
+        name: "faq"
+        file: "en/faq.md"  # Path to your FAQ page content
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
