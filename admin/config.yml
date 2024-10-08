@@ -1,0 +1,7 @@
+backend:
+  name: github
+  repo: web-being/festivaldescouleurs  # Replace with your GitHub repository
+  branch: main  # or the branch you want to work on
+
+media_folder: "assets/uploads"  # Folder where images or media files will be stored
+public_folder: "/assets/uploads"  # Path to access uploaded media
