@@ -1,0 +1,10 @@
+prose:
+  rooturl: ''
+  siteurl: 'http://web-being.github.io/festivaldescouleurs/'
+  relativeLinks: 'http://web-being.github.io/festivaldescouleurs/links.jsonp'
+  media: 'assets'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
