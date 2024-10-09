@@ -16,11 +16,6 @@ prose:
     - package-lock.json
   metadata:
     en:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
       - name: "layout"
         field:
           element: "hidden"
@@ -29,6 +24,16 @@ prose:
         field:
           element: "hidden"
           value: "en"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          help: "Page url different from /en/title"
       - name: "background"
         field:
           element: "text"
