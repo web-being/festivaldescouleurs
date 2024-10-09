@@ -39,11 +39,11 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "en.html"
+          value: "fr.html"
       - name: "lang"
         field:
           element: "hidden"
-          value: "en"
+          value: "fr"
       - name: "title"
         field:
           element: "text"
