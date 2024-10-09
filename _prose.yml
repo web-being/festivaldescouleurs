@@ -20,8 +20,6 @@ prose:
         field:
           element: "text"
           label: "Title"
-          placeholder: "Title"
-          alterable: true
           value: ""
       - name: "layout"
         field:
@@ -37,6 +35,25 @@ prose:
           label: "Background"
           value: ""
           help: "Image name in /assets folder"
+      - name: "splash"
+        field:
+          element: "text"
+          label: "Splash image"
+          value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
+            - name: "Pears"
+              value: "pears"
+            - name: "Mangos"
+              value: "mangos"
     fr:
       - name: "layout"
         field:
