@@ -4,6 +4,7 @@ prose:
   relativeLinks: 'http://web-being.github.io/festivaldescouleurs/links.jsonp'
   media: 'assets'
   ignore:
+    - _includes
     - _prose.yml
     - .github
     - node_modules
@@ -13,3 +14,44 @@ prose:
     - LICENSE
     - package.json
     - package-lock.json
+  metadata:
+    en:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "en.html"
+      - name: "lang"
+        field:
+          element: "hidden"
+          value: "en"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "background"
+        field:
+          element: "text"
+          label: "Background"
+          value: ""
+          help: "Image name from assets folder"
+    fr:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "en.html"
+      - name: "lang"
+        field:
+          element: "hidden"
+          value: "en"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "background"
+        field:
+          element: "text"
+          label: "Background"
+          value: ""
+          help: "Image name from assets folder"
