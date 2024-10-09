@@ -36,10 +36,11 @@ prose:
           help: "Page url different from /en/title"
       - name: "background"
         field:
-          element: "text"
+          element: "select"
           label: "Background"
           value: ""
-          help: "Image name in /assets folder"
+          help: "Image from /assets"
+          options: "/assets.jsonp"
     fr:
       - name: "layout"
         field:
@@ -59,4 +60,5 @@ prose:
           element: "text"
           label: "Background"
           value: ""
-          help: "Image name in /assets folder"
+          help: "Image in /assets"
+          options: "assets.jsonp"
