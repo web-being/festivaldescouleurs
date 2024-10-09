@@ -16,6 +16,13 @@ prose:
     - package-lock.json
   metadata:
     en:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Title"
+          alterable: true
+          value: ""
       - name: "layout"
         field:
           element: "hidden"
@@ -24,17 +31,12 @@ prose:
         field:
           element: "hidden"
           value: "en"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
       - name: "background"
         field:
           element: "text"
           label: "Background"
           value: ""
-          help: "Image name from assets folder"
+          help: "Image name in /assets folder"
     fr:
       - name: "layout"
         field:
@@ -54,4 +56,4 @@ prose:
           element: "text"
           label: "Background"
           value: ""
-          help: "Image name from assets folder"
+          help: "Image name in /assets folder"
