@@ -29,12 +29,6 @@ prose:
         field:
           element: "hidden"
           value: "en"
-      - name: "background"
-        field:
-          element: "text"
-          label: "Background"
-          value: ""
-          help: "Image name in /assets folder"
       - name: "splash"
         field:
           element: "text"
