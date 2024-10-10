@@ -15,9 +15,23 @@
   h1,
   h2,
   h3 {
-    color: rgb(66, 232, 222);
+    font-family: "Anton", sans-serif;
+    color: #FCFD46;
     font-weight: bold;
     margin: 0 0 1rem;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h4,
+  h5,
+  h6 {
+    color: rgb(66, 232, 222);
+    font-weight: bold;
   }
 
   p {
@@ -81,7 +95,9 @@
     padding: 1rem;
     background-size: cover;
     background-position: center;
-    background-image: url("{{ background }}");
+    background-attachment: fixed;
+    background-color: {{background}};
+    background-image: url("{{'/assets' | url }}/{{ background }}");
   }
 
   footer {

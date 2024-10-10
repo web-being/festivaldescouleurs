@@ -4,6 +4,7 @@ permalink: /index.html
 title: Home - English
 lang: en
 locale: locales.en
+background: 'holi2.jpg'
 ---
 
 # Welcome
