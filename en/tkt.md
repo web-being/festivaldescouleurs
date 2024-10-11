@@ -1,5 +1,5 @@
 ---
-layout: en.html
+layout: en
 permalink: /tkt.html
 title: Tickets - English
 lang: en

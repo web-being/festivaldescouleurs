@@ -1,5 +1,5 @@
 ---
-layout: fr.html
+layout: fr
 title: FAQ - English
 lang: en
 background: 'party.jpg'

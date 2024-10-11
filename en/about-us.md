@@ -1,5 +1,5 @@
 ---
-layout: en.html
+layout: en
 permalink: /about-us.html
 title: About - English
 lang: en

@@ -1,5 +1,5 @@
 ---
-layout: fr.html
+layout: fr
 title: À propos - Français
 lang: fr
 background: 'rgb(246,29,108)'

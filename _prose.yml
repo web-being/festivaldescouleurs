@@ -19,7 +19,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "en.html"
+          value: "en"
       - name: "lang"
         field:
           element: "hidden"
@@ -44,7 +44,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "fr.html"
+          value: "fr"
       - name: "lang"
         field:
           element: "hidden"

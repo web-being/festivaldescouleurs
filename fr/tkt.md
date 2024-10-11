@@ -1,5 +1,5 @@
 ---
-layout: fr.html
+layout: fr
 title: Billets - Français
 lang: fr
 ---

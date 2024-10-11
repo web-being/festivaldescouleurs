@@ -1,6 +1,6 @@
 ---
 lang: en
-layout: en.html
+layout: en
 permalink: /faq.html
 title: FAQ - English
 background: 'party.jpg'
