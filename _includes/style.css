@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body,
 html {
   margin: 0;
@@ -12,25 +16,38 @@ html {
 }
 
 h1,
+h2 {
+  font-family: "Anton", sans-serif;
+  font-weight: normal;
+}
+
+h1,
 h2,
 h3 {
-  font-family: "Anton", sans-serif;
   color: #FCFD46;
-  font-weight: bold;
   margin: 0 0 1rem;
 }
 
 h1 {
   font-size: 6rem;
+  line-height: 1.08;
 }
 
 h2 {
   font-size: 2.5rem;
 }
 
+h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: .05ch;
+}
+
 h4 {
+  font-size: 1.2rem;
+  margin: 1rem 0;
   color: rgb(66, 232, 222);
-  font-weight: bold;
+  font-weight: normal;
 }
 
 h5,
@@ -77,9 +94,16 @@ header {
   display: flex;
   gap: 2rem;
   margin: 2rem 1rem 0;
-  padding: 2rem 0 0;
   align-items: center;
-  height: 5rem;
+  height: 6rem;
+}
+
+header #logo {
+  flex-shrink: 0;
+}
+
+header #logo img {
+  max-height: 4rem;
 }
 
 header img,
@@ -89,7 +113,7 @@ header svg {
 
 header nav {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 header ul {
@@ -127,8 +151,27 @@ main {
   background-position: center;
   background-attachment: fixed;
   padding: 3rem 0;
+  font-size: 18px
 }
 
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container p {
+  max-width: 54rem;
+}
+
+main article {
+  background: rgba(0, 0, 0, .108);
+  padding: 2rem;
+  margin: 2rem 0;
+}
 
 video,
 figure,
@@ -146,6 +189,7 @@ footer {
 footer nav {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
 footer nav a {
@@ -163,11 +207,4 @@ footer #outro {
 
 footer #copyright {
   margin-left: auto;
-}
-
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 1080px;
-  margin: 0 auto;
 }

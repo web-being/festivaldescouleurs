@@ -11,7 +11,7 @@ background: 'party.jpg'
 
 White is recommended, but there is no dress code. You can also buy white t-shirts on site.
 
-​<br>
+<br>
 
 #### \\\\ START AND END TIME
 
