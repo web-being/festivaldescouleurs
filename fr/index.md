@@ -5,7 +5,7 @@ lang: fr
 background: 'holi2.jpg'
 ---
 
-<h1 style="text-align: center; margin: 10rem 0;">ON SE VOIT EN 2025!</h1>
+<h1 style="text-align: center; margin: 14rem 0;">ON SE VOIT EN 2025!</h1>
 
 <video autoplay muted loop>
     <source src="/assets/promo.mp4" type="video/mp4">

@@ -64,12 +64,11 @@ button:hover {
 
 /* Layout */
 header {
-  font-family: "Anton", sans-serif;
-  font-size: 2rem;
   display: flex;
   gap: 2rem;
   margin: 2rem 1rem 0;
   padding: 2rem 0 0;
+  align-items: center;
 }
 
 header nav {
@@ -82,14 +81,27 @@ header ul {
   display: contents;
 }
 
-header a {
+header nav ul li a {
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
   color: white;
   transition: 0.108s linear color;
 }
 
-header a:hover {
+header nav ul li a:hover {
   color: rgb(198, 7, 77);
   text-decoration: none;
+}
+
+header #lang {
+  /* position: absolute;
+  right: 0;
+  top: 0.5rem; */
+  margin-left: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 main {
@@ -132,6 +144,7 @@ footer #outro {
 }
 
 .container {
+  position: relative;
   width: 100%;
   max-width: 1080px;
   margin: 0 auto;

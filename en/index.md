@@ -8,7 +8,7 @@ background: 'holi2.jpg'
 ---
 
 
-<h1 style="text-align: center; margin: 10rem 0;">SEE YOU IN 2025!</h1>
+<h1 style="text-align: center; margin: 14rem 0;">SEE YOU IN 2025!</h1>
 
 <video autoplay muted loop>
     <source src="/assets/promo.mp4" type="video/mp4">
@@ -16,9 +16,10 @@ background: 'holi2.jpg'
 </video>
 
 <section style="background:#F61D6C; border-radius: 4rem; padding: 2rem; margin: 2rem 0 20rem; ">
-Re-vivez l'événement extérieur HOLI à Montréal!
+Re-experience the outdoor HOLI event in Montreal!
 
-Inspiré de l'ancienne tradition de l'Inde, ce festival musical de couleurs vous transportera dans un monde de joie, de danse et de souvenirs uniques ! Bollywood, Indie, House, Regaetton, Kirtan et bien d'autres styles musicaux seront interprétés par des DJ et des groupes ''live''. Vous apprécierez les animations de danse Bhangra, Bollywood, latine et autres tout au long de la journée.
+Inspired by the ancient tradition of India, this musical color-throw festival will transport you into a world of joy and unique memories! Bollywood, Indie, House, Regaetton, Kirtan and many more music styles will be performed by DJs and live bands. You will enjoy Bhangra, Bollywood, Latin and other dance animations throughout the day.
 
-Des stands de nourriture, du henné et des activités pour ;es enfants enfants en feront une journée familiale mémorable!
+Food stalls, henna and kid-friendly activities will make it a memorable family day!
+
 </section>
