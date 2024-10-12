@@ -1,8 +1,8 @@
 ---
+lang: en
 layout: en
 permalink: /about-us.html
 title: About - English
-lang: en
 background: 'rgb(246,29,108)'
 ---
 
@@ -21,6 +21,7 @@ background: 'rgb(246,29,108)'
 </section>
 
 <article>
+  ![organizers.webp]({{site.baseurl}}/assets/organizers.webp)
 <h3>Organizers</h3>
 <p>Festivals of India is a not-for-profit Quebec-registered organization that has been influential in the scene of events related to the culture of India since 2016, beginning with co-organization of traditional events (Ratha-Yatra), artistic shows at the Quartier des Spectacles, as well as summer Yoga festivals. It's  our great pleasure to introduce you to one more annual event: Festival of Colours, inspired by Holi.</p>
 </article>
