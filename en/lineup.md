@@ -5,5 +5,5 @@ title: Lineup - English
 lang: en
 background: 'holi.webp'
 ---
-# Event Lineup
+## Event Lineup
 This is the English version of the lineup page.

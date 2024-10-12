@@ -28,11 +28,15 @@ h2 {
   font-size: 2.5rem;
 }
 
-h4,
-h5,
-h6 {
+h4 {
   color: rgb(66, 232, 222);
   font-weight: bold;
+}
+
+h5,
+h6 {
+  font-size: 1.33rem;
+  font-weight: 400
 }
 
 p {
@@ -47,6 +51,12 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style-position: inside;
 }
 
 button {
@@ -69,6 +79,12 @@ header {
   margin: 2rem 1rem 0;
   padding: 2rem 0 0;
   align-items: center;
+  height: 5rem;
+}
+
+header img,
+header svg {
+  display: block;
 }
 
 header nav {
@@ -78,6 +94,10 @@ header nav {
 
 header ul {
   list-style: none;
+  display: contents;
+}
+
+header ul li {
   display: contents;
 }
 
@@ -94,9 +114,6 @@ header nav ul li a:hover {
 }
 
 header #lang {
-  /* position: absolute;
-  right: 0;
-  top: 0.5rem; */
   margin-left: 1rem;
   color: rgba(255, 255, 255, 0.9);
   display: flex;
@@ -106,11 +123,12 @@ header #lang {
 
 main {
   flex: 1;
-  padding: 2rem 0;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  padding: 3rem 0;
 }
+
 
 video,
 figure,
@@ -141,6 +159,10 @@ footer #outro {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+}
+
+footer #copyright {
+  margin-left: auto;
 }
 
 .container {
