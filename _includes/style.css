@@ -89,11 +89,11 @@ header {
   gap: 2rem;
   margin: 2rem 1rem 0;
   align-items: center;
-  height: 6rem;
+  padding: 1rem 0;
 }
 
 header #logo {
-  flex-shrink: 0;
+  flex-shrink: 0.1;
 }
 
 header #logo img {
@@ -103,6 +103,12 @@ header #logo img {
 header img,
 header svg {
   display: block;
+}
+
+header #menu {
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
 
 header nav {
@@ -124,11 +130,24 @@ header nav ul li a {
   font-size: 2rem;
   color: white;
   transition: 0.108s linear color;
+  white-space: nowrap;
 }
 
 header nav ul li a:hover {
   color: rgb(198, 7, 77);
   text-decoration: none;
+}
+
+#icons {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+header #icons {
+  margin-left: auto;
 }
 
 header #lang {
@@ -197,14 +216,19 @@ footer {
   flex-wrap: wrap;
 }
 
-footer nav {
+footer #other-menu {
   display: flex;
   gap: 1rem;
   align-items: center;
+  width: 100%;
 }
 
-footer nav a {
+footer #other-menu a {
   color: white;
+}
+
+footer #icons {
+  margin-right: auto;
 }
 
 footer #outro {
@@ -218,4 +242,50 @@ footer #outro {
 
 footer #copyright {
   margin-left: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  header nav {
+    gap: 2.5vmin;
+  }
+
+  header #logo {
+    margin: 0 auto;
+  }
+
+  header nav ul li a {
+    font-size: min(5vmin, 1.5rem);
+  }
+
+  header #icons {
+    display: none;
+  }
+
+  header #lang {
+    margin-left: 0;
+  }
+
+  header #lang span {
+    display: none;
+  }
+
+  footer #copyright {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer #other-menu {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  footer #icons {
+    margin-left: auto;
+  }
 }

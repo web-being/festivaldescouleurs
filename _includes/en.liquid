@@ -4,6 +4,24 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="black">
+    <meta name="msapplication-navbutton-color" content="black">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    {% comment %} <link rel="apple-touch-icon" href="apple-touch-icon.png"> {% endcomment %}
+    {% comment %} <link rel="manifest" href="/manifest.json"> {% endcomment %}
+    <meta name="description" content="Your website description here.">
+    <meta name="format-detection" content="telephone=no">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="Festival of colors">
+    <meta property="og:image" content="{{ site.baseurl }}/assets/logo.png">
+    <meta property="og:url" content="{{ page.url }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="Festival of colors">
+    <meta name="twitter:image" content="{{ site.baseurl }}/assets/logo.png">
+    {% comment %} <link rel="icon" href="favicon.ico" type="image/x-icon"> {% endcomment %}
+
     <title>{{ page.title }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +35,7 @@
       <a id="logo" href="/">
         <img src="/assets/logo.png" alt="Festival des Couleurs Logo">
       </a>
-      <nav style="width:100%; justify-content:space-around;">
+      <nav id="menu">
         <ul>
           <li>
             <a href="/">Home</a>
@@ -35,13 +53,13 @@
             <a href="/faq">FAQ</a>
           </li>
         </ul>
+        {% include 'icons' %}
+        <a id="lang" href="{{ page.url | replace_first: '/', '/fr/' | replace: '.html', ''}}"><svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-fr" viewBox="0 0 640 480" height="20">
+          <path fill="#fff" d="M0 0h640v480H0z"/>
+          <path fill="#000091" d="M0 0h213.3v480H0z"/>
+          <path fill="#e1000f" d="M426.7 0H640v480H426.7z"/>
+        </svg><span>Français</span></a>
       </nav>
-      <nav style="margin-left: auto">{% include 'icons' %}</nav>
-      <a id="lang" href="{{ page.url | replace_first: '/', '/fr/' | replace: '.html', ''}}"><svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-fr" viewBox="0 0 640 480" height="20">
-        <path fill="#fff" d="M0 0h640v480H0z"/>
-        <path fill="#000091" d="M0 0h213.3v480H0z"/>
-        <path fill="#e1000f" d="M426.7 0H640v480H426.7z"/>
-      </svg> Français</a>
     </header>
     <main style="background-color: {{background}}; background-image: url('{{'/assets' | url }}/{{ background }}');">
       <div class="container">
@@ -49,14 +67,14 @@
       </div>
     </main>
     <footer class="container">
-      <nav>{% include 'icons' %}</nav>
-      <nav>
+      <nav id="other-menu">
+        {% include 'icons' %}
         <a href="mailto:info@holimontreal.com">Contact Us</a>
         <a href="/terms-and-conditions">Terms and Conditions</a>
         <a href="/privacy-policy">Privacy policy</a>
       </nav>
       <div id="outro">
-        <img src="/assets/SAAQ.webp" width="160" />
+        <img src="/assets/SAAQ.png" width="144" />
         <img src="/assets/festival-of-india.webp" width="80" />
       </div>
       <small id="copyright">© 2024 par Festivals de l'Inde</small>
