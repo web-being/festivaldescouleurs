@@ -1,6 +1,6 @@
 ---
 layout: en
-permalink: /terms-and-conditions.html
+permalink: /terms-and-conditions/
 title: T&C - English
 lang: en
 background: 'party.jpg'

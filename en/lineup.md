@@ -1,6 +1,6 @@
 ---
 layout: en
-permalink: /lineup.html
+permalink: /lineup/
 title: Lineup - English
 lang: en
 background: 'holi.webp'

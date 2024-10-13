@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: en
-permalink: /about-us.html
+permalink: /about-us/
 title: About - English
 background: 'rgb(246,29,108)'
 ---

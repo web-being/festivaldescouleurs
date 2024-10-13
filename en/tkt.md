@@ -1,6 +1,6 @@
 ---
 layout: en
-permalink: /tkt.html
+permalink: /tkt/
 title: Tickets - English
 lang: en
 ---

@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: en
-permalink: /faq.html
+permalink: /faq/
 title: FAQ - English
 background: 'party.jpg'
 ---
