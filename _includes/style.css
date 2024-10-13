@@ -13,6 +13,7 @@ html {
   color: white;
   display: flex;
   flex-direction: column;
+  overscroll-behavior: none;
 }
 
 h1,
