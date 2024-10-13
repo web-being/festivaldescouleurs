@@ -99,11 +99,11 @@ header .container {
 }
 
 header #logo {
-  flex-shrink: 0.1;
+  flex-shrink: 0;
 }
 
 header #logo img {
-  max-height: 4rem;
+  height: 3rem;
 }
 
 header img,
