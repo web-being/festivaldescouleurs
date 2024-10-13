@@ -10,7 +10,7 @@ background: 'holi2.jpg'
 
 <h1 style="text-align: center; margin: 13rem 0;">SEE YOU IN 2025!</h1>
 
-<video autoplay muted loop style="border: 1rem solid black">
+<video loop controls style="border: 1rem solid black; background: black;">
     <source src="/assets/promo.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
