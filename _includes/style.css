@@ -85,11 +85,17 @@ button:hover {
 
 /* Layout */
 header {
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 1);
+}
+
+header .container {
   display: flex;
   gap: 2rem;
-  margin: 2rem 1rem 0;
   align-items: center;
-  padding: 1rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 header #logo {
@@ -155,9 +161,6 @@ header #lang {
 
 main {
   flex: 1;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   padding: 3rem 0;
   font-size: 18px
 }
@@ -205,6 +208,11 @@ img {
 }
 
 footer {
+  position: relative;
+  background: rgba(0, 0, 0, 1);
+}
+
+footer .container {
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -241,7 +249,7 @@ footer #copyright {
 
 
 @media only screen and (max-width: 768px) {
-  header {
+  header .container {
     flex-wrap: wrap;
     gap: 1rem;
   }

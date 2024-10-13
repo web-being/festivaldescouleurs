@@ -31,53 +31,70 @@
   </head>
 
   <body>
-    <header class="container">
-      <a id="logo" href="/">
-        <img src="/assets/logo.png" alt="Festival des Couleurs Logo">
-      </a>
-      <nav id="menu">
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/about-us">Festival</a>
-          </li>
-          <li>
-            <a href="/lineup">Line-up</a>
-          </li>
-          <li>
-            <a href="/tkt">Tickets</a>
-          </li>
-          <li>
-            <a href="/faq">FAQ</a>
-          </li>
-        </ul>
-        {% include 'icons' %}
-        <a id="lang" href="{{ page.url | replace_first: '/', '/fr/' | replace: '.html', ''}}"><svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-fr" viewBox="0 0 640 480" height="20">
-          <path fill="#fff" d="M0 0h640v480H0z"/>
-          <path fill="#000091" d="M0 0h213.3v480H0z"/>
-          <path fill="#e1000f" d="M426.7 0H640v480H426.7z"/>
-        </svg><span>Français</span></a>
-      </nav>
+    <header>
+      <div class="container">
+        <a id="logo" href="/">
+          <img src="/assets/logo.png" alt="Festival des Couleurs Logo">
+        </a>
+        <nav id="menu">
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/about-us">Festival</a>
+            </li>
+            <li>
+              <a href="/lineup">Line-up</a>
+            </li>
+            <li>
+              <a href="/tkt">Tickets</a>
+            </li>
+            <li>
+              <a href="/faq">FAQ</a>
+            </li>
+          </ul>
+          {% include 'icons' %}
+          <a id="lang" href="{{ page.url | replace_first: '/', '/fr/' | replace: '.html', ''}}"><svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-fr" viewBox="0 0 640 480" height="20">
+            <path fill="#fff" d="M0 0h640v480H0z"/>
+            <path fill="#000091" d="M0 0h213.3v480H0z"/>
+            <path fill="#e1000f" d="M426.7 0H640v480H426.7z"/>
+          </svg><span>Français</span></a>
+        </nav>
+      </div>
     </header>
-    <main style="background-color: {{background}}; background-image: url('{{'/assets' | url }}/{{ background }}');">
+    <main>
+      <style>
+        main:before {
+          content:'';
+          position: fixed;
+          inset: 0;
+          background-color: {{background}};
+          background-image: url('{{'/assets' | url }}/{{ background }}');
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          z-index: 0;
+        }
+      </style>
       <div class="container">
         {{ content }}
       </div>
     </main>
-    <footer class="container">
-      <nav id="other-menu">
-        {% include 'icons' %}
-        <a href="mailto:info@holimontreal.com">Contact Us</a>
-        <a href="/terms-and-conditions">Terms and Conditions</a>
-        <a href="/privacy-policy">Privacy policy</a>
-      </nav>
-      <div id="outro">
-        <img src="/assets/SAAQ.png" width="144" />
-        <img src="/assets/festival-of-india.webp" width="80" />
+    <footer>
+      <div class="container">
+        <nav id="other-menu">
+          {% include 'icons' %}
+          <a href="mailto:info@holimontreal.com">Contact Us</a>
+          <a href="/terms-and-conditions">Terms and Conditions</a>
+          <a href="/privacy-policy">Privacy policy</a>
+        </nav>
+        <div id="outro">
+          <img src="/assets/SAAQ.png" width="144" />
+          <img src="/assets/festival-of-india.webp" width="80" />
+        </div>
+        <small id="copyright">© 2024 par Festivals de l'Inde</small>
       </div>
-      <small id="copyright">© 2024 par Festivals de l'Inde</small>
     </footer>
   </body>
 
