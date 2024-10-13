@@ -6,7 +6,7 @@ title: About - English
 background: 'rgb(246,29,108)'
 ---
 
-<section style="display:flex; gap: 2rem">
+<section id="festival">
   <h1>THE FESTIVAL</h1>
   <div>
     <h3>OVER 10 HOURS OF NON-STOP MUSIC AND DANCE WITH HOLI COLOR-THROW!</h3>
@@ -63,9 +63,9 @@ background: 'rgb(246,29,108)'
 </div>
 </article>
 
-<h3 style="display:flex; gap: 2rem;align-items:center;margin:-3rem 0 0 1.5rem;font-size:5rem">
+<h3 id="faq-link">
   <img src="{{site.baseurl}}/assets/question.webp" height="144"/>
-  <a href="./faq" style="text-decoration:underline">
+  <a href="./faq">
   FESTIVAL FAQ
   </a>
 </h3>

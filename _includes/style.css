@@ -178,6 +178,11 @@ main {
   max-width: 54rem;
 }
 
+main #festival {
+  display: flex;
+  gap: 2rem
+}
+
 main article {
   background: rgba(0, 0, 0, .108);
   padding: 2rem;
@@ -199,6 +204,18 @@ main article h3 {
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: .05ch;
+}
+
+main #faq-link {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin: -3rem 0 0 1.5rem;
+  font-size: 5rem
+}
+
+main #faq-link a {
+  text-decoration: underline;
 }
 
 video,
@@ -276,6 +293,25 @@ footer #copyright {
 
   header #lang span {
     display: none;
+  }
+
+  main #festival {
+    flex-direction: column;
+  }
+
+  main article {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  main article img {
+    width: auto;
+  }
+
+  main #faq-link {
+    flex-direction: column;
+    font-size: 2.5rem;
+    margin: auto
   }
 
   footer #copyright {

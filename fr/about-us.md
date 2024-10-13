@@ -5,7 +5,7 @@ lang: fr
 background: 'rgb(246,29,108)'
 ---
 
-<section style="display:flex; gap: 2rem">
+<section>
   <h1>LE FESTIVAL</h1>
   <div>
     <h3>PLUS DE 10 HEURES DE MUSIQUE ET DE DANSE NON-STOP AVEC LES JETS DE COULEURS !</h3>
@@ -64,9 +64,9 @@ background: 'rgb(246,29,108)'
 </div>
 </article>
 
-<h3 style="display:flex; gap: 2rem;align-items:center;margin:-3rem 0 0 1.5rem;font-size:5rem">
+<h3 id="faq-link">
   <img src="{{site.baseurl}}/assets/question.webp" height="144"/>
-  <a href="./faq" style="text-decoration:underline">
+  <a href="./faq">
   FOIRE AUX QUESTIONS
   </a>
 </h3>
